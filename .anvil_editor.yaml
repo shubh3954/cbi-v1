@@ -1,9 +1,12 @@
 unique_ids:
   forms:
     Form1: 7SSQY2I7T35CBTI3SEEUSIEIMACPKSLQ
+    Form2: '1714793382278825193033719.4333'
   modules: {}
   server_modules: {}
   assets:
+    CBI logo.png: '1714791749651826344995123.4512'
+    centralbankofindia-1618313972.jpg: '1714791446737745808022216.4913'
     standard-page.html: U4YHC2AJTIBF3MOKLPP4N7YFKW65YVF4
     theme.css: K2HQDU5G5LCZOT7ZB3TORWS3X4L2L7IZ
   scripts: {}

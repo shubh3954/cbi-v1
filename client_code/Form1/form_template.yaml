@@ -1,14 +1,33 @@
 is_package: true
 container:
   type: HtmlTemplate
-  properties: {html: '@theme:standard-page.html'}
+  properties: {html: '@theme:standard-page.html', role: headline, visible: true}
 components:
 - type: ColumnPanel
-  properties: {col_widths: '{}'}
+  properties: {col_widths: '{}', wrap_on: mobile, spacing_below: none}
   name: content_panel
   layout_properties: {slot: default}
-  components: []
-- type: FlowPanel
-  properties: {}
-  name: navbar_links
-  layout_properties: {slot: nav-right}
+  components:
+  - name: image_1
+    properties: {source: _/theme/CBI logo.png, vertical_align: top, spacing_below: none,
+      height: 103.19998168945312, spacing_above: none}
+    type: Image
+    layout_properties: {grid_position: 'HWWDSM,TAGFHX'}
+  - name: label_1
+    properties: {role: display, border: '#FF3368', foreground: '', text: MSME Schemes,
+      font_size: 30, font: Arial, spacing_above: none, spacing_below: none, italic: false,
+      background: '#ADD8E6', bold: true, icon: 'fa:align-justify'}
+    type: Label
+    layout_properties: {grid_position: 'JEPKAN,ESVMRV'}
+    data_bindings: []
+  - name: link_1
+    properties: {role: selected, foreground: '#33AFFF', text: Central Government Schemes​,
+      font_size: 20, font: '', col_spacing: small, italic: true, bold: true, underline: true,
+      icon: 'fa:caret-right'}
+    type: Link
+    layout_properties: {grid_position: 'QWBJMR,KYPUKH'}
+  - name: link_2
+    properties: {text: State Government Schemes ​, bold: true, italic: true, foreground: '#33AFFF',
+      underline: true, icon: 'fa:caret-right', font_size: 20}
+    type: Link
+    layout_properties: {grid_position: 'ARNYUB,CRDTJL'}
