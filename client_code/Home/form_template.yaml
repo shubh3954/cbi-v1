@@ -28,6 +28,7 @@ components:
     layout_properties: {grid_position: 'QWBJMR,KYPUKH'}
   - name: link_2
     properties: {text: State Government Schemes ​, bold: true, italic: true, foreground: '#33AFFF',
-      underline: true, icon: 'fa:caret-right', font_size: 20}
+      underline: true, icon: 'fa:caret-right', font_size: 20, url: ''}
     type: Link
     layout_properties: {grid_position: 'ARNYUB,CRDTJL'}
+    event_bindings: {click: link_2_click}

@@ -23,7 +23,7 @@ components:
       include_placeholder: true
       placeholder: State
       items: []
-      align: left
+      align: center
       role: outlined
       bold: true
       tooltip: Select State
@@ -32,8 +32,8 @@ components:
     layout_properties: {grid_position: 'GQHGGN,KBIAVI'}
     data_bindings: []
   - name: drop_down_2
-    properties: {include_placeholder: true, placeholder: Industry, align: left, bold: true,
-      tooltip: Select Industry, role: outlined}
+    properties: {include_placeholder: true, placeholder: Industry, align: center,
+      bold: true, tooltip: Select Industry, role: outlined}
     type: DropDown
     layout_properties: {grid_position: 'NZUJVT,QDBHTK', full_width_row: false}
     event_bindings: {change: drop_down_2_change}
