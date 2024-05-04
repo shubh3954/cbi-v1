@@ -5,9 +5,10 @@ services:
   server_config: {}
 startup: {type: form, module: Home}
 package_name: CBI_V1
-allow_embedding: false
+allow_embedding: true
 name: CBI V1
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
+metadata: {logo_img: 'asset:CBI logo-logo.png', title: CBI APP, description: This is a CBI app}
 startup_form: null
 renamed: true
